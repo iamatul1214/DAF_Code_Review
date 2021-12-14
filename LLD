@@ -1,0 +1,78 @@
+Factors in which the xpath should be written as broken-
+1.When count of ( and ) brackets don't match
+2.When count of [ and ] brackets don't match
+3.When xpath starts from *
+4.When count of double quotes don't match
+5.When count of single quotes don't match
+6.User regex to determine name of xpath to be in same pattern
+7.When id,name,text,selector,classname contains the properties which are absent from xpath
+8.When there is any space in the xpath written or in the object name
+
+
+LLD
+-----------------------------------------------------
+
+def round_brackets_check(dataframe.series):
+    return a boolean flag
+
+def square_brackets_check(dataframe.series):
+    return a boolean flag
+
+def astriesk_check(dataframe.series):
+    return a boolean flag
+
+def double_quotes_check(dataframe.series):
+    return a boolean flag
+
+def single_quotes_check(dataframe.series):
+    return a boolean flag
+
+def regex_check_for_name(dataframe.series):
+    return a boolean flag
+
+def space_Check(dataframe.series):
+    return a boolean flag
+
+
+def master_Decider_method(round_brackets_flag,square_brackets_flag,asteriesk_check_flag,single_quotes_check_flag,double_quotes_check_flag
+,regex_check_for_name_flag):
+
+    if all the flags are True:
+        return "xpath looks correct"
+
+    else:
+        return "xpath is broken"
+
+def dataframe_modifier(dataframe):
+    string message=master_Decider_method()
+    if message ="Xpath is broken":
+        dataframe['Auto review comment']="The xpath is broken"
+
+    elif message="Xpath looks correct":
+        dataframe['Auto review comment']="The xpath is good"
+
+
+def file_reader(filename):
+    Reads the file returns dataframe
+    return dataframe
+
+def create_review_column(dataframe):
+    dataframe['Review']=''
+    return updated_dataframe
+
+def select_column_to_be_checked(dataframe,column name):
+    check if requested column name is present in dataframe,if not return exception
+    dataframe['column name']
+
+def convert_dataframe_to_file(dataframe):
+    converts the dataframe to xlsm format
+
+---------------------Some important failure handling technique-------------------------------
+As soon as input file is read, store it into the database. So that if any failure happens it will return the original file to user.
+Also store the logs into database as well.
+
+------------- Some data preprocessing steps before performing operations on the file---------------------
+1. check if some rows have only objectname and empty enitre property
+2. If entire file is empty or truncated then show the message on web, file is empty
+3. Check the format of file, if file format(column names) are incorrect then don't process it and right away show incorrect file format.
+
