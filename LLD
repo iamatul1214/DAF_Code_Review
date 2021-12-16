@@ -7,6 +7,8 @@ Factors in which the xpath should be written as broken-
 6.User regex to determine name of xpath to be in same pattern
 7.When id,name,text,selector,classname contains the properties which are absent from xpath
 8.When there is any space in the xpath written or in the object name
+9. Double slashes check, if there are so many double slashes it means the xpath is absolute
+10. single slashes check, if ther are so many single slashes it means the xpath is absolute
 
 
 LLD
@@ -78,3 +80,17 @@ Also store the logs into database as well.
 
 -------------------Unit test cases----------------------------------------------------------------
 1. Create some unit test cases for each conditions which will execute all the method and check the accuracy
+
+
+------------------------- Failure priority--------------------------------------------------------------------
+1. Show the exact reason for the failure, eg- xpath is broken as quotes/brackets is missing or not matching
+   eg 2- Xpath is not robust, please avoid using //*
+2. Prioritize the message to be written on sheet, as there can be times when multiple failure happens
+
+
+One master function can store all the true and false values from methods and then pass it to decider method,
+decider method will prioritize them,
+if brackets or quotes false:
+    print('Xpath is broken because of brackets or quotes missing')
+if asterisk false:
+    print('Xpath is not robust may lead to discrepancies ')

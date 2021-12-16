@@ -82,3 +82,27 @@ class back_Operations():
 
         except Exception as e:
             print('Exception occured while checking the asterisk in {0} --- {1}'.format(Testable_property, str(e)))
+
+    def single_Quotes_Check(self,Testable_property):
+        try:
+            count_of_single_quotes=Testable_property.count('\'')
+
+            if count_of_single_quotes % 2 == 0:
+                return True
+            else:
+                return False
+
+        except Exception as e:
+            print('Exception occured while checking the single quotes in {0} --- {1}'.format(Testable_property, str(e)))
+
+    def double_Quotes_Check(self,Testable_property):
+        try:
+            count_of_double_quotes=Testable_property.count('\"')
+
+            if count_of_double_quotes % 2 == 0:
+                return True
+            else:
+                return False
+
+        except Exception as e:
+            print('Exception occured while checking the single quotes in {0} --- {1}'.format(Testable_property, str(e)))
