@@ -76,3 +76,5 @@ Also store the logs into database as well.
 2. If entire file is empty or truncated then show the message on web, file is empty
 3. Check the format of file, if file format(column names) are incorrect then don't process it and right away show incorrect file format.
 
+-------------------Unit test cases----------------------------------------------------------------
+1. Create some unit test cases for each conditions which will execute all the method and check the accuracy

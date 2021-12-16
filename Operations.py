@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 
 class back_Operations():
     def file_Reader(self,filename):
@@ -58,10 +59,6 @@ class back_Operations():
         try:
             count_opening_brackets = 0
             count_closing_brackets = 0
-            # i=iteration_value
-            # for i in range(len(Testable_Column)):
-            # count_opening_brackets = count_opening_brackets + Testable_Column[i].count('(')
-            # count_closing_brackets = count_closing_brackets + Testable_Column[i].count(')')
             count_opening_brackets = count_opening_brackets + Testable_property.count('[')
             count_closing_brackets = count_closing_brackets + Testable_property.count(']')
 
@@ -76,8 +73,12 @@ class back_Operations():
 
     def asterisk_Check(self,Testable_property):
         try:
-            pass
-
+            pattern=re.compile(r'//\*')
+            match = pattern.search(Testable_property)
+            if match:
+               return False
+            else:
+               return True
 
         except Exception as e:
-            print('Exception occured while checking the round brackets for {0} --- {1}'.format(Testable_property, str(e)))
+            print('Exception occured while checking the asterisk in {0} --- {1}'.format(Testable_property, str(e)))

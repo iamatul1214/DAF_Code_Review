@@ -24,7 +24,8 @@ bo=back_Operations()
 for i in range(len(properties)):
    x= bo.round_Brackets_Check(Testable_property=properties[i])
    y= bo.square_Brackets_Check(Testable_property=properties[i])
-   if x and y is True:
+   z=bo.asterisk_Check(Testable_property=properties[i])
+   if x and y and z is True:
        df['Auto code review'][i] = "pass"
    else:
        df['Auto code review'][i] = "fail"
