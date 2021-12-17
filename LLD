@@ -8,7 +8,7 @@ Factors in which the xpath should be written as broken-
 7.When id,name,text,selector,classname contains the properties which are absent from xpath
 8.When there is any space in the xpath written or in the object name
 9. Double slashes check, if there are so many double slashes it means the xpath is absolute
-10. single slashes check, if ther are so many single slashes it means the xpath is absolute
+10. single slashes check, if there are so many single slashes it means the xpath is absolute
 
 
 LLD

@@ -26,6 +26,9 @@ for i in range(len(properties)):
    y= bo.square_Brackets_Check(Testable_property=properties[i])
    z=bo.asterisk_Check(Testable_property=properties[i])
    w=bo.single_Quotes_Check(Testable_property=properties[i])
+   t=bo.double_Quotes_Check(Testable_property=properties[i])
+   p=bo.single_Slashes_Check(Testable_property=properties[i])
+   q=bo.double_Slashes_Check(Testable_property=properties[i])
    if x and y and z and w is True:
        df['Auto code review'][i] = "pass"
    else:

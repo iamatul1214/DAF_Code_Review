@@ -106,3 +106,31 @@ class back_Operations():
 
         except Exception as e:
             print('Exception occured while checking the single quotes in {0} --- {1}'.format(Testable_property, str(e)))
+
+
+    def single_Slashes_Check(self,Testable_property):
+        try:
+            count_of_single_slashes=0
+            patt = re.compile(r'[a-zA-Z0-9]\/[a-zA-Z0-9]')
+            match = patt.finditer(Testable_property)
+            for match in match:
+                count_of_single_slashes += 1
+
+            print("The single slash count = {0}".format(count_of_single_slashes))
+            return count_of_single_slashes
+        except Exception as e:
+            print('Exception occured while checking the single slashes in {0} --- {1}'.format(Testable_property, str(e)))
+
+    def double_Slashes_Check(self, Testable_property):
+        try:
+            count_of_double_slashes=0
+            patt = re.compile(r'[a-zA-Z0-9]\//[a-zA-Z0-9]')
+            match = patt.finditer(Testable_property)
+            for match in match:
+                count_of_double_slashes += 1
+
+            print("The double slash count = {0}".format(count_of_double_slashes))
+            return count_of_double_slashes
+        except Exception as e:
+            print('Exception occured while checking the single slashes in {0} --- {1}'.format(Testable_property, str(e)))
+
