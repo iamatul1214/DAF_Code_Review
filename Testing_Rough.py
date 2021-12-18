@@ -6,6 +6,7 @@ print(df.columns)
 properties=df['Properties'].tolist()
 print(type(properties))
 df['Auto code review']=''
+df['Review Suggestions']=''
 # for i in range(len(properties)):
 #     count_round_brackets = 0
 #     count_square_brackets = 0
@@ -27,13 +28,21 @@ for i in range(len(properties)):
    z=bo.asterisk_Check(Testable_property=properties[i])
    w=bo.single_Quotes_Check(Testable_property=properties[i])
    t=bo.double_Quotes_Check(Testable_property=properties[i])
-   p=bo.single_Slashes_Check(Testable_property=properties[i])
-   q=bo.double_Slashes_Check(Testable_property=properties[i])
-   if x and y and z and w is True:
-       df['Auto code review'][i] = "pass"
-   else:
-       df['Auto code review'][i] = "fail"
+   q=bo.single_Slash_Start_Check(Testable_property=properties[i])
+   # if x and y and z and w is True:
+   #     df['Auto code review'][i] = "pass"
+   # else:
+   #     df['Auto code review'][i] = "fail"
+   # print(df['Auto code review'])
+   # if p >3:
+   #    df['Auto code review'][i] = "too many slashes used, looks like an absolute xpath"
+   review_column_name='Auto code review'
+   review_suggestion='Review Suggestions'
+   m1,m2=bo.review_Decider(round_bracket_check=x,square_bracket_check=y,single_quotes_check=3,double_quotes_check=t,asterisk_check=z,single_slash_start_check=q)
+   bo.review_Writer(m1,m2,df,review_column_name,review_suggestion,i)
 
 print(df['Auto code review'])
+print(df['Review Suggestions'])
 print(df)
 # pip
+

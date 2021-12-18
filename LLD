@@ -38,6 +38,14 @@ def space_Check(dataframe.series):
 
 def master_Decider_method(round_brackets_flag,square_brackets_flag,asteriesk_check_flag,single_quotes_check_flag,double_quotes_check_flag
 ,regex_check_for_name_flag):
+    broken=[round_brackets_flag,square_brackets_flag,single_quotes_check_flag,double_quotes_check_flag]
+    if all(broken):
+    print('xpath looks fine')
+    else:
+   print('xpath is broken')
+
+   if slashes_count>4:
+        message=
 
     if all the flags are True:
         return "xpath looks correct"
@@ -74,7 +82,7 @@ As soon as input file is read, store it into the database. So that if any failur
 Also store the logs into database as well.
 
 ------------- Some data preprocessing steps before performing operations on the file---------------------
-1. check if some rows have only objectname and empty enitre property
+1. check if some rows have only object name and empty entire property
 2. If entire file is empty or truncated then show the message on web, file is empty
 3. Check the format of file, if file format(column names) are incorrect then don't process it and right away show incorrect file format.
 
@@ -94,3 +102,8 @@ if brackets or quotes false:
     print('Xpath is broken because of brackets or quotes missing')
 if asterisk false:
     print('Xpath is not robust may lead to discrepancies ')
+
+----------------------------After operation------------------------------------------------------------------
+Once all the xpaths are checked, then dataframe with updated column will be created into two files, one is xlsm and another is csv.
+The csv file will be used to analyze the report of the xpath performances. It can show that out of 100 xpaths 20 were found broken,
+40 were found to be absolute and 20 found to be less robust. We can also use some graphs here to perform same.
