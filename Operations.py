@@ -187,13 +187,10 @@ class back_Operations():
             print('Exception occured while deciding review messages',str(e))
 
 
-    def blank_Rows_Dealer(self,Testable_property):
+    def blank_Rows_Dealer(self,dataframe,null_column,review_column,suggestions_column):
         try:
-            if Testable_property=='Nan':
-                message1='No xpath found'
-                message2='No Suggestion'
-
-            return message1,message2
+            dataframe.loc[dataframe[null_column].isna(),[review_column]]="No xpath found"
+            dataframe.loc[dataframe[null_column].isna(), [suggestions_column]] = "No suggestions"
         except Exception as e:
             print('Exception occured while dealing with blank xpaths', str(e))
 

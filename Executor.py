@@ -25,6 +25,7 @@ for i in range(len(properties)):
 
 # print(updated_dataframe['Auto Code Review'])
 # print(updated_dataframe['Review Suggestions'])
+bo.blank_Rows_Dealer(dataframe=updated_dataframe,null_column=column_name,review_column=review_columm,suggestions_column=review_suggestion)
 print(updated_dataframe)
 
 bo.convert_dataframe_to_Resource(dataframe=updated_dataframe)
