@@ -6,7 +6,7 @@ class back_Operations():
         """ This method just reads the input file from the location"""
         try:
             fname=filename
-            dataframe=pd.read_excel(fname)
+            dataframe=pd.read_excel(fname,sheet_name='Object repository')
             return dataframe
         except Exception as e:
             print('Exception occured while reading the file \t',str(e))
@@ -15,12 +15,12 @@ class back_Operations():
     def create_Review_Columns(self,dataframe):
         """ This method adds the review column in the existing dataframe"""
         try:
-            review_column_name='Auto Review Comments'
+            review_column_name='Auto Code Review'
             review_suggestion='Review Suggestions'
             dataframe[review_column_name]=''
             dataframe[review_suggestion]=''
             updated_dataframe=dataframe
-            return updated_dataframe
+            return updated_dataframe,review_column_name,review_suggestion
         except Exception as e:
             print('Exception occured while creating the review columns \t', str(e))
 
@@ -34,6 +34,14 @@ class back_Operations():
                 return "Column is not present in file"
         except Exception as e:
             print('Exception occured while selecting column for review test \t', str(e))
+
+    def convert_Series_to_List(self,pandas_series):
+        try:
+            properties=pandas_series.tolist()
+            return properties
+        except Exception as e:
+            print('Exception occured while converting pandas series {0} to list {1}'.format(pandas_series,str(e)))
+
 
 
     # def round_Brackets_Check(self,Testable_Column,iteration_value):
@@ -176,8 +184,18 @@ class back_Operations():
 
             return message1,message2
         except Exception as e:
-            print('Exception occured while',str(e))
+            print('Exception occured while deciding review messages',str(e))
 
+
+    def blank_Rows_Dealer(self,Testable_property):
+        try:
+            if Testable_property=='Nan':
+                message1='No xpath found'
+                message2='No Suggestion'
+
+            return message1,message2
+        except Exception as e:
+            print('Exception occured while dealing with blank xpaths', str(e))
 
     def review_Writer(self,message1,message2,dataframe,review_column,suggestion_column,row):
         try:
@@ -192,3 +210,12 @@ class back_Operations():
                 dataframe[suggestion_column][row]='Some parenthesis/brackets/quotes missing'
         except Exception as e:
             print('Exception occured while writing review to dataframe', str(e))
+
+
+    def convert_dataframe_to_Resource(self,dataframe):
+        try:
+            filename='Reviewed files/Xpath_Reviewed.xlsx'
+            dataframe.to_excel(filename)
+
+        except Exception as e:
+            print('Exception occured while converting the reviewed dataframe to xlsm file', str(e))
