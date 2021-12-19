@@ -5,6 +5,7 @@ bo=back_Operations()
 filename='Testing files/Resource.xlsm'
 column_name='Properties'
 dataframe=bo.file_Reader(filename=filename)
+dataframe=bo.check_File_empty(dataframe=dataframe)
 updated_dataframe,review_columm,review_suggestion=bo.create_Review_Columns(dataframe=dataframe)
 Testable_Column=bo.select_Column_For_Test(dataframe=updated_dataframe,column_name=column_name)
 properties=bo.convert_Series_to_List(updated_dataframe[column_name])

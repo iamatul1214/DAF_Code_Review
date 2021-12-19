@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+from Custom_Exceptions import EmptyFileException
 
 class back_Operations():
     def file_Reader(self,filename):
@@ -11,6 +12,15 @@ class back_Operations():
         except Exception as e:
             print('Exception occured while reading the file \t',str(e))
 
+    def check_File_empty(self,dataframe):
+        try:
+            is_empty=dataframe.empty
+            if is_empty:
+                raise EmptyFileException()
+            else:
+                return dataframe
+        except Exception as e:
+            print('Exception occured while checking if the file is empty - \t', str(e))
 
     def create_Review_Columns(self,dataframe):
         """ This method adds the review column in the existing dataframe"""

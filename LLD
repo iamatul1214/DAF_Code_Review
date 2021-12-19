@@ -107,3 +107,8 @@ if asterisk false:
 Once all the xpaths are checked, then dataframe with updated column will be created into two files, one is xlsm and another is csv.
 The csv file will be used to analyze the report of the xpath performances. It can show that out of 100 xpaths 20 were found broken,
 40 were found to be absolute and 20 found to be less robust. We can also use some graphs here to perform same.
+
+
+-------------------------------Highlighting---------------------------------------------------------------------
+Use color highlighting methods to highlight the output excel file. for eg- Red for broken xpath, yellow for suggestions, and green
+for pass, blue for no xpaths.
