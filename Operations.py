@@ -184,7 +184,7 @@ class back_Operations():
             #     message2="Looks fine"
 
             if single_slash_start_check is True and asterisk_check is True:
-                message2="Looks like an absolute xpath. Please try to avoid xpath starting with single slashes or *."
+                message2="Looks like an absolute xpath. Please try to avoid xpath starting with single slashes or //*."
             elif single_slash_start_check is False and asterisk_check is True:
                 message2 = "Please try to avoid xpath with //*."
             elif single_slash_start_check is True and asterisk_check is False:
@@ -215,6 +215,12 @@ class back_Operations():
 
             if dataframe[review_column][row] == 'xpath is broken' and dataframe[suggestion_column][row] == 'No suggestion':
                 dataframe[suggestion_column][row]='Some parenthesis/brackets/quotes missing'
+
+            elif dataframe[review_column][row] == 'xpath is broken' and dataframe[suggestion_column][row] != 'No suggestion':
+                dataframe[suggestion_column][row]='Some parenthesis/brackets/quotes missing'+', '+message2
+
+            else:
+                pass
         except Exception as e:
             print('Exception occured while writing review to dataframe', str(e))
 
