@@ -4,27 +4,43 @@
      <link rel="stylesheet" href="static/style.css">
     <meta charset="UTF-8">
     <title>Xpath Reviewer</title>
-    <style>
-    body {
-    background-color: #EC7063 ;
-    }
-    h2 {text-align: center;}
-    .title{color:#273582;}
-    .navbar-light .navbar-brand{color: rgba(0,0,0,.9);}
-	.navbar-light .navbar-brand {margin-left: auto;margin-right: auto;}
-	.container-fluid{width:90%;}
-
-        </style>
-<!--</blockquote>-->
 </head>
 <body>
-
-<nav class="navbar fixed-top navbar-light bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="https://github.com/iamatul1214/DAF_Code_Review" target="_blank">Github Code </a>
+<form action="/reviewing", method="post">
+<!--<nav class="navbar fixed-top navbar-light bg-dark">-->
+<!--  <div class="container-fluid">-->
+<!--    <a class="navbar-brand" href="https://github.com/iamatul1214/DAF_Code_Review" target="_blank">Github Code </a>-->
+        <div class="card-header">
+                  <a class="card-header" href="https://github.com/iamatul1214/DAF_Code_Review"><b>Github Code</b></a>
+  </div>
   </div>
 </nav>
-<h2>Auto Xpath Reviewer</h2>
+<h1 style="font-size:300%;"><center>Auto Xpath Reviewer</center></h1>
+  <style>
+.container {
+  height: 300px;
+  position: relative;
+  border: 3px solid green;
+}
 
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+ </style>
+
+  <div class="container">
+  <div class="center">
+  <p style="font-size:200%;">Choose your resource file (The file with xpaths)</p>
+   <input type="file" class="form-control" name="ResourceFile" id="ResourceFile" style="font-size:150%;">
+  <input type="submit" class="btn btn-outline-dark btn-sm mx-1" value="Start review process" style="font-size:150%;">
+
+</div>
+  </div>
+</form>
 </body>
 </html>
