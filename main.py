@@ -1,10 +1,19 @@
+import json
+from datetime import datetime
 from flask import Flask, render_template
 from flask import request, redirect
+from werkzeug.utils import secure_filename
+from Executor import Executor
+import pandas as pd
+import os
 
+e=Executor()
 
+with open('config.json','r') as config:
+    params=json.load(config)["Params"]
 app=Flask(__name__)
 
-
+app.config["UPLOAD_FOLDER"] = params["Upload_Location"]
 @app.route("/",methods=['GET'])
 def home():
     return render_template('Welcome.html')
@@ -13,8 +22,14 @@ def home():
 @app.route('/reviewing',methods=['GET','POST'])
 def start_Review():
     if request.method == 'POST':
-        f = request.form['ResourceFile']
-        print("file=",f)
+        f = request.files['ResourceFile']
+        time = datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")
+        filename=time+'_'+f.filename
+        f.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(filename)))
+
+
+        e.execute(file=f)
+        return "work in progress"
 
 
 

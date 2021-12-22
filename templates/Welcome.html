@@ -6,7 +6,7 @@
     <title>Xpath Reviewer</title>
 </head>
 <body>
-<form action="/reviewing", method="post">
+
 <!--<nav class="navbar fixed-top navbar-light bg-dark">-->
 <!--  <div class="container-fluid">-->
 <!--    <a class="navbar-brand" href="https://github.com/iamatul1214/DAF_Code_Review" target="_blank">Github Code </a>-->
@@ -31,12 +31,13 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
- </style>
 
+ </style>
+<form action="/reviewing", method="post" enctype="multipart/form-data">
   <div class="container">
   <div class="center">
   <p style="font-size:200%;">Choose your resource file (The file with xpaths)</p>
-   <input type="file" class="form-control" name="ResourceFile" id="ResourceFile" style="font-size:150%;">
+   <input type="file" class="form-control" name="ResourceFile" id="ResourceFile" style="font-size:150%;" >
   <input type="submit" class="btn btn-outline-dark btn-sm mx-1" value="Start review process" style="font-size:150%;">
 
 </div>
