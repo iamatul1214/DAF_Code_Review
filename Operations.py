@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import os
 from datetime import datetime
 from Custom_Exceptions import EmptyFileException
 
@@ -108,6 +109,7 @@ class back_Operations():
     def single_Slash_Start_Check(self,Testable_property):
         try:
             pattern=re.compile(r'^/[A-Za-z]')
+ #           pattern=re.compile(r'^/["html"]')
             match = pattern.search(Testable_property)
             if match:
                 return True
@@ -205,6 +207,14 @@ class back_Operations():
         except Exception as e:
             print('Exception occured while dealing with blank xpaths', str(e))
 
+    def integers_Dealer(self,dataframe,column_to_be_checked,review_column,suggestions_column):
+        try:
+            dataframe.loc[dataframe[column_to_be_checked].apply(type) == int, [review_column]] = "No xpath, only integers found"
+            dataframe.loc[dataframe[column_to_be_checked].apply(type) == int, [suggestions_column]] = "Please add proper xpath"
+
+        except Exception as e:
+            print('Exception occured while dealing with Integers/numericals inplace of xpaths', str(e))
+
     def review_Writer(self,message1,message2,dataframe,review_column,suggestion_column,row):
         try:
             # if message1 == "Looks fine" and message2 == "No suggestion":
@@ -215,10 +225,10 @@ class back_Operations():
             dataframe[suggestion_column][row]=message2
 
             if dataframe[review_column][row] == 'xpath is broken' and dataframe[suggestion_column][row] == 'No suggestion':
-                dataframe[suggestion_column][row]='Some parenthesis/brackets/quotes missing'
+                dataframe[suggestion_column][row]='Some parenthesis/brackets/quotes/html tags missing'
 
             elif dataframe[review_column][row] == 'xpath is broken' and dataframe[suggestion_column][row] != 'No suggestion':
-                dataframe[suggestion_column][row]='Some parenthesis/brackets/quotes missing'+', '+message2
+                dataframe[suggestion_column][row]='Some parenthesis/brackets/quotes missing' + ', '+message2
 
             else:
                 pass
@@ -229,8 +239,17 @@ class back_Operations():
     def convert_dataframe_to_Resource(self,dataframe):
         try:
             time=datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")
-            filename="Reviewed files/Xpath_Reviewed_"+time+".xlsx"
+            filename="Reviewed_files/Xpath_Reviewed_"+time+".xlsx"
             dataframe.to_excel(filename)
 
         except Exception as e:
             print('Exception occured while converting the reviewed dataframe to xlsm file', str(e))
+
+    def fetch_Latest_File_From_Directory(self,directory_path):
+        try:
+            file = os.listdir(directory_path)
+            paths = [os.path.join(directory_path, basename) for basename in file]
+            return max(paths, key=os.path.getctime)
+
+        except Exception as e:
+            print('Exception occured while the latest file from {0} {1}'.format(directory_path,str(e)))

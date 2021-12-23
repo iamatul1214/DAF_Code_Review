@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <link rel="stylesheet" href="static/style.css">
+<!--     <link rel="stylesheet" href="static/style.css">-->
     <meta charset="UTF-8">
     <title>Xpath Reviewer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -13,31 +17,32 @@
         <div class="card-header">
                   <a class="card-header" href="https://github.com/iamatul1214/DAF_Code_Review"><b>Github Code</b></a>
   </div>
-<h1 style="font-size:300%;"><center>Auto Xpath Reviewer</center></h1>
+<h1 style="font-size:400%;"><center>Auto Xpath Reviewer</center></h1>
   <style>
 .container {
-  height: 300px;
+  height: 400px;
   position: relative;
+  bottom:0;
+  right:0;
   border: 3px solid green;
 }
 
 .center {
   margin: 0;
-  position: absolute;
+  position: relative;
   top: 50%;
-  left: 50%;
+  left: 70%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
  </style>
-<button type="button" class="btn btn-outline-dark">Dark</button>
 <form action="/reviewing", method="post" enctype="multipart/form-data">
   <div class="container">
   <div class="center">
-  <p style="font-size:200%;">Choose your resource file (The file with xpaths)</p>
-   <input type="file"  name="ResourceFile" id="ResourceFile" style="font-size:150%;" >
-      <button type="submit" class="btn btn-primary" style="font-size:150%;">Start review process</button>
+  <p style="font-size:175%;">Choose your resource file (The file with xpaths)</p>
+   <input type="file" class="btn btn-outline-info"  name="ResourceFile" id="ResourceFile" style="font-size:150%;" >
+      <button type="submit" class="btn btn-outline-dark" style="font-size:170%;">Start review process</button>
      <p style="color:red;"> {{File_Error}} </p>
 
 </div>

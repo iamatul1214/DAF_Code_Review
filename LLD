@@ -9,6 +9,14 @@ Factors in which the xpath should be written as broken-
 8.When there is any space in the xpath written or in the object name
 9. Double slashes check, if there are so many double slashes it means the xpath is absolute
 10. single slashes check, if there are so many single slashes it means the xpath is absolute
+11. Check if the xpath starts with slashes or not
+12. Check if xpath only contains the numericals
+
+
+conditions not handled-
+1. //html/body/div[3]/div[2]/div/div[1]/div[3]/div[3]/div[2]/div/div[3]/div[1]/ul/li[1]/div[2]/div/div/a- Absolute xpath
+2. htm/body/div[3]/div[2]/div/div[1]/div[3]/div[3]/div[2]/div/div[3]/div[1]/ul/li[1]/div[2]/div/div/a- broken xpath
+3. Just a sample string- "hello this is a test"-- it is also a broken xpath
 
 
 LLD
