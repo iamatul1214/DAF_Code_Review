@@ -23,13 +23,16 @@ def home():
 def start_Review():
     if request.method == 'POST':
         f = request.files['ResourceFile']
-        time = datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")
-        filename=time+'_'+f.filename
-        f.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(filename)))
+        if f:
+            time = datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")
+            filename=time+'_'+f.filename
+            f.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(filename)))
 
 
-        e.execute(file=f)
-        return "work in progress"
+            e.execute(file=f)
+            return "work in progress"
+        else:
+            return render_template("Welcome.html",File_Error="No file uploaded. Please upload a file.")
 
 
 

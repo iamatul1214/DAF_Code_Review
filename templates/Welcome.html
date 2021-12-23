@@ -13,8 +13,6 @@
         <div class="card-header">
                   <a class="card-header" href="https://github.com/iamatul1214/DAF_Code_Review"><b>Github Code</b></a>
   </div>
-  </div>
-</nav>
 <h1 style="font-size:300%;"><center>Auto Xpath Reviewer</center></h1>
   <style>
 .container {
@@ -33,12 +31,14 @@
 }
 
  </style>
+<button type="button" class="btn btn-outline-dark">Dark</button>
 <form action="/reviewing", method="post" enctype="multipart/form-data">
   <div class="container">
   <div class="center">
   <p style="font-size:200%;">Choose your resource file (The file with xpaths)</p>
-   <input type="file" class="form-control" name="ResourceFile" id="ResourceFile" style="font-size:150%;" >
-  <input type="submit" class="btn btn-outline-dark btn-sm mx-1" value="Start review process" style="font-size:150%;">
+   <input type="file"  name="ResourceFile" id="ResourceFile" style="font-size:150%;" >
+      <button type="submit" class="btn btn-primary" style="font-size:150%;">Start review process</button>
+     <p style="color:red;"> {{File_Error}} </p>
 
 </div>
   </div>
