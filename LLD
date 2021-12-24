@@ -120,3 +120,13 @@ The csv file will be used to analyze the report of the xpath performances. It ca
 -------------------------------Highlighting---------------------------------------------------------------------
 Use color highlighting methods to highlight the output excel file. for eg- Red for broken xpath, yellow for suggestions, and green
 for pass, blue for no xpaths.
+
+
+----------------------------------------------Machine learning part------------------------------------------------------
+Extend it to machine learning, Prepare a dataset, with columns like-
+round_brackets,paranthesis,quotes,double quotes,asterisk,slashes,absolute check and etc..
+
+Now each feature will store yes or no values, and there will be multiple classes like-Broken xpath, xpath looks good, xpath is absolute,
+and etc.
+
+Now I can use Naive bias to predict if xpath is broken or not. then show the Analysis of that.

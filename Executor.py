@@ -26,10 +26,12 @@ class Executor():
                     single_quotes= bo.single_Quotes_Check(Testable_property=properties[i])
                     double_quotes= bo.double_Quotes_Check(Testable_property=properties[i])
                     single_slash_start= bo.single_Slash_Start_Check(Testable_property=properties[i])
+                    single_slash_presence=bo.single_Slashes_presence(Testable_property=properties[i])
+                    # double_slash_presence = bo.double_Slashes_presence(Testable_property=properties[i])
 
                     message1,message2=bo.review_Decider(round_bracket_check=round_brackets,square_bracket_check=square_brackets,
                                                         single_quotes_check=single_quotes,double_quotes_check=double_quotes,asterisk_check=asterisk,
-                                                        single_slash_start_check=single_slash_start)
+                                                        single_slash_start_check=single_slash_start,single_slashes_presence=single_slash_presence)
                     bo.review_Writer(message1=message1,message2=message2,dataframe=updated_dataframe,review_column=review_columm,
                                      suggestion_column=review_suggestion,row=i)
 

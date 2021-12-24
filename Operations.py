@@ -142,6 +142,16 @@ class back_Operations():
         except Exception as e:
             print('Exception occured while checking the single quotes in {0} --- {1}'.format(Testable_property, str(e)))
 
+    def only_a_Word_Check(self,Testable_property):
+        try:
+            only_word_present=Testable_property.isalpha()
+            if only_word_present:
+                return False
+            else:
+                return True
+        except Exception as e:
+            print('Exception occured while checking if only a single word is present {0} --- {1}'.format(Testable_property, str(e)))
+
 
     def single_Slashes_Check(self,Testable_property):
         try:
@@ -156,6 +166,21 @@ class back_Operations():
         except Exception as e:
             print('Exception occured while checking the single slashes in {0} --- {1}'.format(Testable_property, str(e)))
 
+    def single_Slashes_presence(self, Testable_property):
+        try:
+            # count_of_single_slashes = 0
+            # patt = re.compile(r'[a-zA-Z0-9]\/[a-zA-Z0-9]')
+            # match = patt.finditer(Testable_property)
+            match=Testable_property.count('/')
+            if match > 0:
+                return True
+            else:
+                return False
+
+        except Exception as e:
+            print(
+                'Exception occured while checking the single slashes in {0} --- {1}'.format(Testable_property, str(e)))
+
     def double_Slashes_Check(self, Testable_property):
         try:
             count_of_double_slashes=0
@@ -169,13 +194,31 @@ class back_Operations():
         except Exception as e:
             print('Exception occured while checking the single slashes in {0} --- {1}'.format(Testable_property, str(e)))
 
-    def review_Decider(self,round_bracket_check,square_bracket_check,single_quotes_check,double_quotes_check,asterisk_check,single_slash_start_check):
+
+    def double_Slashes_presence(self, Testable_property):
         try:
-            broken_xpath=[round_bracket_check,square_bracket_check,single_quotes_check,double_quotes_check]
-            if all(broken_xpath):
-                message1="xpath Looks fine"
+            patt = re.compile(r'[a-zA-Z0-9]\//[a-zA-Z0-9]')
+            match = patt.finditer(Testable_property)
+            if match:
+                return True
             else:
-                message1="xpath is broken"
+                return False
+
+        except Exception as e:
+            print('Exception occured while checking the single slashes in {0} --- {1}'.format(Testable_property, str(e)))
+
+    def review_Decider(self,round_bracket_check,square_bracket_check,single_quotes_check,double_quotes_check,asterisk_check,single_slash_start_check,single_slashes_presence):
+        try:
+            # if single_slashes_presence is True or double_slashes_presence is True:
+            #     slashes_presence = True
+            # else:
+            #     slashes_presence = False
+
+            broken_xpath = [round_bracket_check, square_bracket_check, single_quotes_check, double_quotes_check, single_slashes_presence]
+            if all(broken_xpath):
+                message1 = "xpath Looks fine"
+            else:
+                message1 = "xpath is broken"
 
             # if single_slashes_check > 4 or double_slashes_check > 4 and asterisk_check == True:
             #     message2="Looks like an absolute xpath, please use less slashes and try to avoid //*."
