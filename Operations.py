@@ -3,6 +3,7 @@ import re
 import os
 from datetime import datetime
 from Custom_Exceptions import EmptyFileException
+from werkzeug.utils import secure_filename
 
 class back_Operations():
     def file_Reader(self,filename):
@@ -288,6 +289,15 @@ class back_Operations():
         except Exception as e:
             print('Exception occured while converting the reviewed dataframe to xlsm file', str(e))
 
+
+    def add_File_To_Directory(self,directory_path,file_Instance):
+        try:
+            time = datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")
+            filename = time + '_' + file_Instance.filename
+            file_Instance.save(os.path.join(directory_path, secure_filename(filename)))
+
+        except Exception as e:
+            print('Exception occured while adding the file to {0} {1}'.format(directory_path, str(e)))
     def fetch_Latest_File_From_Directory(self,directory_path):
         try:
             file = os.listdir(directory_path)

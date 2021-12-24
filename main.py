@@ -1,10 +1,8 @@
 import json
-from datetime import datetime
 from flask import Flask, render_template,request,send_file,send_from_directory, redirect
-from werkzeug.utils import secure_filename
 from Executor import Executor
 from Operations import back_Operations
-import os
+
 
 
 bo = back_Operations()
@@ -36,10 +34,7 @@ def start_Review():
             f = request.files['ResourceFile']
             if f:
                 if check_file_extension(f.filename):
-                    time = datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")
-                    filename=time+'_'+f.filename
-                    f.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(filename)))
-                    e.execute(file=f)
+                    bo.add_File_To_Directory(directory_path=app.config["UPLOAD_FOLDER"],file_Instance=f)
                 else:
                     return render_template("Welcome.html",File_Error=app.config["File_Type_Error"])
                 return render_template("results.html")
