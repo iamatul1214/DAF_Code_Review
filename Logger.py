@@ -17,7 +17,7 @@ class App_Logger:
             logging.basicConfig(filename=self.file_object, filemode='a', format='%(asctime)s - %(message)s',datefmt='%d-%b-%y %H:%M:%S', level=logging.INFO)
             logging.info(log_message)
         except Exception as e:
-            logging.error("Error occured while writing the logs {0}".format(str(e)))
+            logging.info("Error occured while writing the logs {0}".format(str(e)))
 
 
 

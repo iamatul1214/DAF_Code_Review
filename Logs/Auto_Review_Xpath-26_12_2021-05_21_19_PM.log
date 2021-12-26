@@ -1,0 +1,46 @@
+26-Dec-21 17:21:46 - Storing the input file Resource2.xlsm to the directory C:\Users\atulkumarrai\PycharmProjects\Ineuron practice\Ineuron_practice\DAF_Code_Review\Input_Resource_Files
+26-Dec-21 17:21:46 - Reading the file <FileStorage: 'Resource2.xlsm' ('application/vnd.ms-excel.sheet.macroEnabled.12')> entered by user
+26-Dec-21 17:21:46 - Checking if file is empty
+26-Dec-21 17:21:46 - Creating the Review columns
+26-Dec-21 17:21:46 - Selecting column from input file to perform review
+26-Dec-21 17:21:46 - converting pandas series to list
+26-Dec-21 17:21:46 - Checking the total round brackets in //*(id='Atul')
+26-Dec-21 17:21:46 - Checking the total square brackets in //*(id='Atul')
+26-Dec-21 17:21:46 - Checking the presence of asterisk in //*(id='Atul')
+26-Dec-21 17:21:46 - Checking the count of single quotes in //*(id='Atul')
+26-Dec-21 17:21:46 - Checking the count of double quotes in //*(id='Atul')
+26-Dec-21 17:21:46 - Checking whether xpath //*(id='Atul') starts from single slash
+26-Dec-21 17:21:46 - Checking the presence of slashes in //*(id='Atul')
+26-Dec-21 17:21:46 - Started the review decider function
+26-Dec-21 17:21:46 - Writing the reviews to the updated dataframe
+26-Dec-21 17:21:46 - Checking the total round brackets in 12345
+26-Dec-21 17:21:46 - Checking the total square brackets in 12345
+26-Dec-21 17:21:46 - Checking the presence of asterisk in 12345
+26-Dec-21 17:21:46 - Checking the count of single quotes in 12345
+26-Dec-21 17:21:46 - Checking the count of double quotes in 12345
+26-Dec-21 17:21:46 - Checking whether xpath 12345 starts from single slash
+26-Dec-21 17:21:46 - Checking the presence of slashes in 12345
+26-Dec-21 17:21:46 - Started the review decider function
+26-Dec-21 17:21:46 - Writing the reviews to the updated dataframe
+26-Dec-21 17:21:46 - Checking the total round brackets in hello this is just a test
+26-Dec-21 17:21:46 - Checking the total square brackets in hello this is just a test
+26-Dec-21 17:21:46 - Checking the presence of asterisk in hello this is just a test
+26-Dec-21 17:21:46 - Checking the count of single quotes in hello this is just a test
+26-Dec-21 17:21:46 - Checking the count of double quotes in hello this is just a test
+26-Dec-21 17:21:46 - Checking whether xpath hello this is just a test starts from single slash
+26-Dec-21 17:21:46 - Checking the presence of slashes in hello this is just a test
+26-Dec-21 17:21:46 - Started the review decider function
+26-Dec-21 17:21:46 - Writing the reviews to the updated dataframe
+26-Dec-21 17:21:46 - Checking the total round brackets in //input[@id="idToken1"]
+26-Dec-21 17:21:46 - Checking the total square brackets in //input[@id="idToken1"]
+26-Dec-21 17:21:46 - Checking the presence of asterisk in //input[@id="idToken1"]
+26-Dec-21 17:21:46 - Checking the count of single quotes in //input[@id="idToken1"]
+26-Dec-21 17:21:46 - Checking the count of double quotes in //input[@id="idToken1"]
+26-Dec-21 17:21:46 - Checking whether xpath //input[@id="idToken1"] starts from single slash
+26-Dec-21 17:21:46 - Checking the presence of slashes in //input[@id="idToken1"]
+26-Dec-21 17:21:46 - Started the review decider function
+26-Dec-21 17:21:46 - Writing the reviews to the updated dataframe
+26-Dec-21 17:21:46 - Dealing with the empty rows of xpath column
+26-Dec-21 17:21:46 - Dealing with the integer rows of xpath column
+26-Dec-21 17:21:46 - Converting the updated dataframe to resource file
+26-Dec-21 17:21:46 - 127.0.0.1 - - [26/Dec/2021 17:21:46] "POST /reviewing HTTP/1.1" 200 -

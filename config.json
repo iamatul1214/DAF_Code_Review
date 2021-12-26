@@ -5,7 +5,8 @@
     "File_Extensions": ["xlsm","xlsx","csv"],
     "Invalid_File_Error": "Invalid File type uploaded. Only .xlsx, .xlsm and .csv are allowed.",
     "No_File_Error": "No file uploaded. Please upload a file.",
-    "Reviewed_Files_Folder":"C:\\Users\\atulkumarrai\\PycharmProjects\\Ineuron practice\\Ineuron_practice\\DAF_Code_Review\\Reviewed_files"
+    "Reviewed_Files_Folder":"C:\\Users\\atulkumarrai\\PycharmProjects\\Ineuron practice\\Ineuron_practice\\DAF_Code_Review\\Reviewed_files",
+    "EDA_Graphs_Folder": "C:\\Users\\atulkumarrai\\PycharmProjects\\Ineuron practice\\Ineuron_practice\\DAF_Code_Review\\EDA_Graphs"
   }
 
 }

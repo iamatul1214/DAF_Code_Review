@@ -1,11 +1,13 @@
 import pandas as pd
 from Operations import back_Operations
 from datetime import datetime
+from Result_Analysis import Result_Analysis
 
 # bo=back_Operations()
 class Executor():
     def __init__(self):
         self.bo=back_Operations()
+        self.ra=Result_Analysis()
 
     def execute(self, file):
         try:
@@ -58,3 +60,9 @@ class Executor():
 
     def add_File_to_Directory(self,directory_path,file):
         self.bo.add_File_To_Directory(directory_path=directory_path, file_Instance=file)
+
+    def result_Analysis(self):
+        data=self.ra.read_Excel()
+        plot_image=self.ra.create_Count_Plot(dataframe=data)
+        pie_image_CR,pie_image_RS=self.ra.create_Pie_plot(dataframe=data)
+        return plot_image,pie_image_CR,pie_image_RS

@@ -51,14 +51,13 @@ def start_Review():
 @app.route('/download', methods=['GET','POST'])
 def download_File():
     try:
-     #   download_File=bo.fetch_Latest_File_From_Directory(directory_path=app.config["Download_Folder"])
+
         download_File=e.fetch_latest_file(directory_path=app.config["Download_Folder"])
+        plot_image=e.result_Analysis()
         return send_file(download_File)
     except Exception as ex:
         print("Error occured\t", str(ex))
         return render_template("Exception.html")
-
-
 
 
 if __name__=="__main__":

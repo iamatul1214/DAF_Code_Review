@@ -14,7 +14,7 @@ from Logger import App_Logger
 class back_Operations():
     def __init__(self):
 
-#        self.file_object=open("Logs/Auto_Review_Xpath-"+datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")+".log",'a')
+        # self.file_object=open("Logs/Auto_Review_Xpath-"+datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")+".log",'a')
         self.file_object="Logs/Auto_Review_Xpath-"+datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")+".log"
         self.logger=Logger.App_Logger(file_object=self.file_object)
 
@@ -284,7 +284,7 @@ class back_Operations():
             elif single_slash_start_check is True and asterisk_check is False:
                 message2 = "Looks like an absolute xpath. Please try to avoid xpath starting with single slashes"
             else:
-                message2 = "No suggestion"
+                message2 = "No suggestions"
 
             return message1,message2
         except Exception as e:
@@ -310,6 +310,7 @@ class back_Operations():
         except Exception as e:
             print('Exception occured while dealing with Integers/numericals inplace of xpaths', str(e))
             self.logger.log(log_message="Exception occured while dealing with integer rows of xpath column {0}".format(str(e)))
+
     def review_Writer(self,message1,message2,dataframe,review_column,suggestion_column,row):
         try:
             # if message1 == "Looks fine" and message2 == "No suggestion":
@@ -320,10 +321,10 @@ class back_Operations():
             dataframe[review_column][row]=message1
             dataframe[suggestion_column][row]=message2
 
-            if dataframe[review_column][row] == 'xpath is broken' and dataframe[suggestion_column][row] == 'No suggestion':
+            if dataframe[review_column][row] == 'xpath is broken' and dataframe[suggestion_column][row] == 'No suggestions':
                 dataframe[suggestion_column][row]='Some parenthesis/brackets/quotes/html tags missing'
 
-            elif dataframe[review_column][row] == 'xpath is broken' and dataframe[suggestion_column][row] != 'No suggestion':
+            elif dataframe[review_column][row] == 'xpath is broken' and dataframe[suggestion_column][row] != 'No suggestions':
                 dataframe[suggestion_column][row]='Some parenthesis/brackets/quotes missing' + ', '+message2
 
             else:
