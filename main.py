@@ -1,8 +1,8 @@
 import json
 from flask import Flask, render_template,request,send_file,send_from_directory, redirect
 from Executor import Executor
+from google.cloud import storage
 import os
-from Operations import back_Operations
 
 # os.putenv('LANG', 'en_US.UTF-8')
 # os.putenv('LC_ALL', 'en_US.UTF-8')
@@ -19,6 +19,8 @@ app.config["Allowed_Extensions"]=params["File_Extensions"]
 app.config["File_Type_Error"]=params["Invalid_File_Error"]
 app.config["No_File_Error"]=params["No_File_Error"]
 app.config["Download_Folder"]=params["Reviewed_Files_Folder"]
+app.config["Bucket_Name"]=params["Bucket_Name"]
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'auto-xpath-reviewer-bd20b4ff36c3.json'
 
 def check_file_extension(filename):
     return filename.split(".")[-1] in app.config["Allowed_Extensions"]
@@ -36,7 +38,10 @@ def start_Review():
             f = request.files['ResourceFile']
             if f:
                 if check_file_extension(f.filename):
-                    e.add_File_to_Directory(directory_path=app.config["UPLOAD_FOLDER"],file=f)
+                    client = storage.Client()
+                    # e.add_File_to_Directory(directory_path=app.config["UPLOAD_FOLDER"],file=f)
+                    e.add_File_To_Cloud(folder_name=app.config["UPLOAD_FOLDER"],file_Instance=f,
+                                        bucket_name=app.config["Bucket_Name"],storage_client=client)
                     e.execute(file=f)
                 else:
                     return render_template("Welcome.html",File_Error=app.config["File_Type_Error"])

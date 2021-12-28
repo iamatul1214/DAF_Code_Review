@@ -2,7 +2,6 @@ import pandas as pd
 import re
 import os
 from datetime import datetime
-
 import Logger
 from Custom_Exceptions import EmptyFileException
 from werkzeug.utils import secure_filename
@@ -364,5 +363,19 @@ class back_Operations():
             return max(paths, key=os.path.getctime)
 
         except Exception as e:
-            print('Exception occured while the latest file from {0} {1}'.format(directory_path,str(e)))
+            print('Exception occured while fetching the latest file from {0} {1}'.format(directory_path,str(e)))
             self.logger.log(log_message="fetching the latest file from directory {0} for downloading {1}".format(directory_path,str(e)))
+
+    def add_File_To_Cloud(self,folder_name,bucket_name,file_Instance,storage_client):
+        try:
+            bucket = storage_client.get_bucket(bucket_name)
+            time = datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")
+            filename = time + '_' + file_Instance.filename
+            blob=bucket.blob(folder_name+'/'+filename)
+        #    blob.upload_from_filename(file_Instance)
+            blob.upload_from_file(file_Instance)
+
+        except Exception as e:
+            print('Exception occured while the uploding file from {0} google bucket folder {1}'.format(folder_name, str(e)))
+            self.logger.log(log_message="Exception occured while the uploding file from {0} google bucket folder {1}".format(folder_name,
+                                                                                                     str(e)))

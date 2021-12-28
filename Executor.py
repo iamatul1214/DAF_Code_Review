@@ -66,3 +66,7 @@ class Executor():
         plot_image=self.ra.create_Count_Plot(dataframe=data)
         pie_image_CR,pie_image_RS=self.ra.create_Pie_plot(dataframe=data)
         return plot_image,pie_image_CR,pie_image_RS
+
+    def add_File_To_Cloud(self,folder_name,bucket_name,file_Instance,storage_client):
+        self.bo.add_File_To_Cloud(folder_name=folder_name,bucket_name=bucket_name,file_Instance=file_Instance,
+                                  storage_client=storage_client)
