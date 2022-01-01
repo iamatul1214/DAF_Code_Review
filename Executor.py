@@ -70,3 +70,4 @@ class Executor():
     def add_File_To_Cloud(self,folder_name,bucket_name,file_Instance,storage_client):
         self.bo.add_File_To_Cloud(folder_name=folder_name,bucket_name=bucket_name,file_Instance=file_Instance,
                                   storage_client=storage_client)
+

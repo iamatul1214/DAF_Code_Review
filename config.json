@@ -7,8 +7,10 @@
     "No_File_Error": "No file uploaded. Please upload a file.",
     "Reviewed_Files_Folder":"C:\\Users\\atulkumarrai\\PycharmProjects\\Ineuron practice\\Ineuron_practice\\DAF_Code_Review\\Reviewed_files",
     "EDA_Graphs_Folder": "C:\\Users\\atulkumarrai\\PycharmProjects\\Ineuron practice\\Ineuron_practice\\DAF_Code_Review\\EDA_Graphs",
-    "Upload__Local_Location": "C:\\Users\\atulkumarrai\\PycharmProjects\\Ineuron practice\\Ineuron_practice\\DAF_Code_Review\\Input_Resource_Files",
-    "Bucket_Name": "daf_code_review"
+    "Upload_Local_Location": "C:\\Users\\atulkumarrai\\PycharmProjects\\Ineuron practice\\Ineuron_practice\\DAF_Code_Review\\Input_Resource_Files",
+    "Bucket_Name": "daf_code_review",
+    "Review_Plots_Folder": "C:\\Users\\atulkumarrai\\PycharmProjects\\Ineuron practice\\Ineuron_practice\\DAF_Code_Review\\static\\EDA_Graphs\\Review_Plots",
+    "Suggestions_Plots_Folder": "C:\\Users\\atulkumarrai\\PycharmProjects\\Ineuron practice\\Ineuron_practice\\DAF_Code_Review\\static\\EDA_Graphs\\Suggestions_Plots"
   }
 
 }

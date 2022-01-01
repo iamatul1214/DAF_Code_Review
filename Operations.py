@@ -2,7 +2,6 @@ import pandas as pd
 import re
 import os
 from datetime import datetime
-import Logger
 from Custom_Exceptions import EmptyFileException
 from werkzeug.utils import secure_filename
 from Logger import App_Logger
@@ -15,7 +14,7 @@ class back_Operations():
 
         # self.file_object=open("Logs/Auto_Review_Xpath-"+datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")+".log",'a')
         self.file_object="Logs/Auto_Review_Xpath-"+datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")+".log"
-        self.logger=Logger.App_Logger(file_object=self.file_object)
+        self.logger=App_Logger(file_object=self.file_object)
 
 
 
@@ -120,9 +119,26 @@ class back_Operations():
                 return False
 
         except Exception as e:
-            print('Exception occured while checking the round brackets for {0} --- {1}'.format(Testable_property,str(e)))
+            print('Exception occured while checking the square brackets for {0} --- {1}'.format(Testable_property,str(e)))
             self.logger.log(log_message='Exception occured while checking the square brackets for {0} --- {1}'.format(
                 Testable_property, str(e)))
+
+
+        def square_Brackets_Presence(self,Testable_property):
+            try:
+                self.logger.log(log_message="Checking the presence of square brackets in {0}".format(Testable_property))
+                presence_of_square_brackets=0
+                presence_of_square_brackets += Testable_property.count('[')
+                presence_of_square_brackets += Testable_property.count(']')
+
+                if presence_of_square_brackets == 0:
+                    return False
+                else:
+                    return True
+
+            except Exception as e:
+                print('Exception occured while checking the presence of square brackets for {0} --- {1}'.format(Testable_property,str(e)))
+                self.logger.log(log_message='Exception occured while checking the square brackets for {0} --- {1}'.format(Testable_property, str(e)))
 
     def asterisk_Check(self,Testable_property):
         try:
@@ -207,6 +223,8 @@ class back_Operations():
         except Exception as e:
             print('Exception occured while checking the single slashes in {0} --- {1}'.format(Testable_property, str(e)))
             self.logger.log(log_message="Exception occured while checking the single slashes in {0} --- {1}".format(Testable_property,str(e)))
+
+
     def single_Slashes_presence(self, Testable_property):
         try:
             # count_of_single_slashes = 0
@@ -253,6 +271,24 @@ class back_Operations():
         except Exception as e:
             print('Exception occured while checking the single slashes in {0} --- {1}'.format(Testable_property, str(e)))
             self.logger.log(log_message="Exception occured while checking the presence of slashes in {0} --- {1}".format(Testable_property,str(e)))
+
+
+    def check_xpath_starting(self,Testable_property):
+        try:
+            self.logger.log("Checking if xpath {0} starts from alphanumeric".format(Testable_property))
+            pattern = re.compile("^[A-Za-z0-9]")
+            match = pattern.search(Testable_property)
+            if match:
+            #    print("broken")
+                 return False
+            else:
+            #    print("Not broken")
+                 return True
+
+        except Exception as e:
+            print('Exception occured while checking the single slashes in {0} --- {1}'.format(Testable_property, str(e)))
+            self.logger.log(log_message="Exception occured while checking if xpath {0} starts from alphanumeric --- {1}".format(Testable_property,str(e)))
+
 
     def review_Decider(self,round_bracket_check,square_bracket_check,single_quotes_check,double_quotes_check,asterisk_check,single_slash_start_check,single_slashes_presence):
         try:
@@ -338,6 +374,9 @@ class back_Operations():
             self.logger.log(log_message="Converting the updated dataframe to resource file")
             time=datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")
             filename="Reviewed_files/Xpath_Reviewed_"+time+".xlsx"
+ #           filename = "Xpath_Reviewed_" + time + ".xlsx"
+
+
             dataframe.to_excel(filename)
 
         except Exception as e:
@@ -368,6 +407,7 @@ class back_Operations():
 
     def add_File_To_Cloud(self,folder_name,bucket_name,file_Instance,storage_client):
         try:
+            self.logger.log(log_message="adding the user input file to the google cloud")
             bucket = storage_client.get_bucket(bucket_name)
             time = datetime.now().strftime("%d_%m_%Y-%I_%M_%S_%p")
             filename = time + '_' + file_Instance.filename

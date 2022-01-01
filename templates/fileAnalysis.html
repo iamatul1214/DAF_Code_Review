@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xpath Report Analysis</title>
+    <center><p>{{ name }}</p></center>
+{% for imagelist in imagelist %}
+    <center><img src="{{ url_for('static',filename=imagelist)}}" height="800" width="700"></center>
+{% endfor %}
+</head>
+<body>
+
+</body>
+</html>
