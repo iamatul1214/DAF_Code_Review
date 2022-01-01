@@ -2,12 +2,15 @@ import pandas as pd
 from Operations import back_Operations
 from datetime import datetime
 from Result_Analysis import Result_Analysis
+from Data_Preprocessor import Data_preprocessor
 
 # bo=back_Operations()
 class Executor():
     def __init__(self):
         self.bo=back_Operations()
         self.ra=Result_Analysis()
+        self.dp=Data_preprocessor()
+
 
     def execute(self, file):
         try:
@@ -33,11 +36,26 @@ class Executor():
                     double_quotes= self.bo.double_Quotes_Check(Testable_property=properties[i])
                     single_slash_start= self.bo.single_Slash_Start_Check(Testable_property=properties[i])
                     single_slash_presence=self.bo.single_Slashes_presence(Testable_property=properties[i])
+                    alphanumeric_start=self.bo.check_xpath_starting(Testable_property=properties[i])
                     # double_slash_presence = bo.double_Slashes_presence(Testable_property=properties[i])
+
+                    # data preprocessing steps
+
+                    self.dp.create_xpath_list(Testable_Property=properties[i])
+                    self.dp.create_round_brackets_list(Testable_Property=properties[i])
+                    self.dp.create_square_brackets_presence_check_list(Testable_Property=properties[i])
+                    self.dp.create_single_quotes_list(Testable_Property=properties[i])
+                    self.dp.create_double_quotes_list(Testable_Property=properties[i])
+                    self.dp.create_asterisk_presence_list(Testable_Property=properties[i])
+                    self.dp.create_single_slash_start_list(Testable_Property=properties[i])
+                    self.dp.create_slashes_absence_check_list(Testable_Property=properties[i])
+                    self.dp.create_square_brackets_list(Testable_Property=properties[i])
+                    self.dp.create_alphanum_start_list(Testable_Property=properties[i])
+
 
                     message1,message2=self.bo.review_Decider(round_bracket_check=round_brackets,square_bracket_check=square_brackets,
                                                         single_quotes_check=single_quotes,double_quotes_check=double_quotes,asterisk_check=asterisk,
-                                                        single_slash_start_check=single_slash_start,single_slashes_presence=single_slash_presence)
+                                                        single_slash_start_check=single_slash_start,single_slashes_presence=single_slash_presence,alphanumeric_start=alphanumeric_start)
                     self.bo.review_Writer(message1=message1,message2=message2,dataframe=updated_dataframe,review_column=review_columm,
                                      suggestion_column=review_suggestion,row=i)
 
@@ -49,6 +67,10 @@ class Executor():
             self.bo.integers_Dealer(dataframe=updated_dataframe,column_to_be_checked=column_name,review_column=review_columm,
                                suggestions_column=review_suggestion)
             self.bo.convert_dataframe_to_Resource(dataframe=updated_dataframe)
+
+            df = self.dp.create_empty_dataframe()
+            updated_df = self.dp.update_preprocessed_dataframe(dataframe=df)
+            self.dp.convert_dataframe_to_excel(dataframe=updated_df)
 
         except Exception as e:
              print("Error occured while reading the filename\t", filename)

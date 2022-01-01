@@ -124,21 +124,21 @@ class back_Operations():
                 Testable_property, str(e)))
 
 
-        def square_Brackets_Presence(self,Testable_property):
-            try:
-                self.logger.log(log_message="Checking the presence of square brackets in {0}".format(Testable_property))
-                presence_of_square_brackets=0
-                presence_of_square_brackets += Testable_property.count('[')
-                presence_of_square_brackets += Testable_property.count(']')
+    def square_Brackets_Presence(self,Testable_property):
+        try:
+            self.logger.log(log_message="Checking the presence of square brackets in {0}".format(Testable_property))
+            presence_of_square_brackets=0
+            presence_of_square_brackets += Testable_property.count('[')
+            presence_of_square_brackets += Testable_property.count(']')
 
-                if presence_of_square_brackets == 0:
-                    return False
-                else:
-                    return True
+            if presence_of_square_brackets == 0:
+                return False
+            else:
+                return True
 
-            except Exception as e:
-                print('Exception occured while checking the presence of square brackets for {0} --- {1}'.format(Testable_property,str(e)))
-                self.logger.log(log_message='Exception occured while checking the square brackets for {0} --- {1}'.format(Testable_property, str(e)))
+        except Exception as e:
+            print('Exception occured while checking the presence of square brackets for {0} --- {1}'.format(Testable_property,str(e)))
+            self.logger.log(log_message='Exception occured while checking the square brackets for {0} --- {1}'.format(Testable_property, str(e)))
 
     def asterisk_Check(self,Testable_property):
         try:
@@ -262,7 +262,7 @@ class back_Operations():
         try:
             self.logger.log("Checking the presence of slashes in {0}".format(Testable_property))
             patt = re.compile(r'[a-zA-Z0-9]\//[a-zA-Z0-9]')
-            match = patt.finditer(Testable_property)
+            match = patt.search(Testable_property)
             if match:
                 return True
             else:
@@ -290,14 +290,14 @@ class back_Operations():
             self.logger.log(log_message="Exception occured while checking if xpath {0} starts from alphanumeric --- {1}".format(Testable_property,str(e)))
 
 
-    def review_Decider(self,round_bracket_check,square_bracket_check,single_quotes_check,double_quotes_check,asterisk_check,single_slash_start_check,single_slashes_presence):
+    def review_Decider(self,round_bracket_check,square_bracket_check,single_quotes_check,double_quotes_check,asterisk_check,single_slash_start_check,single_slashes_presence,alphanumeric_start):
         try:
             # if single_slashes_presence is True or double_slashes_presence is True:
             #     slashes_presence = True
             # else:
             #     slashes_presence = False
             self.logger.log(log_message="Started the review decider function")
-            broken_xpath = [round_bracket_check, square_bracket_check, single_quotes_check, double_quotes_check, single_slashes_presence]
+            broken_xpath = [round_bracket_check, square_bracket_check, single_quotes_check, double_quotes_check, single_slashes_presence,alphanumeric_start]
             if all(broken_xpath):
                 message1 = "xpath Looks fine"
             else:

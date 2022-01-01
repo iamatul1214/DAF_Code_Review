@@ -1,0 +1,1724 @@
+02-Jan-22 00:44:50 - Storing the input file Resource.xlsm to the directory C:\Users\atulkumarrai\PycharmProjects\Ineuron practice\Ineuron_practice\DAF_Code_Review\Input_Resource_Files
+02-Jan-22 00:44:50 - Reading the file <FileStorage: 'Resource.xlsm' ('application/vnd.ms-excel.sheet.macroEnabled.12')> entered by user
+02-Jan-22 00:44:50 - Checking if file is empty
+02-Jan-22 00:44:50 - Creating the Review columns
+02-Jan-22 00:44:50 - Selecting column from input file to perform review
+02-Jan-22 00:44:50 - converting pandas series to list
+02-Jan-22 00:44:50 - Checking the total round brackets in //*(id='Atul')
+02-Jan-22 00:44:50 - Checking the total square brackets in //*(id='Atul')
+02-Jan-22 00:44:50 - Checking the presence of asterisk in //*(id='Atul')
+02-Jan-22 00:44:50 - Checking the count of single quotes in //*(id='Atul')
+02-Jan-22 00:44:50 - Checking the count of double quotes in //*(id='Atul')
+02-Jan-22 00:44:50 - Checking whether xpath //*(id='Atul') starts from single slash
+02-Jan-22 00:44:50 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:50 - Checking if xpath //*(id='Atul') starts from alphanumeric
+02-Jan-22 00:44:50 - creating the list of xpaths
+02-Jan-22 00:44:50 - Appending to the round brackets list
+02-Jan-22 00:44:50 - Checking the total round brackets in //*(id='Atul')
+02-Jan-22 00:44:50 - Appending to square brackets square presence check list
+02-Jan-22 00:44:50 - Checking the presence of square brackets in //*(id='Atul')
+02-Jan-22 00:44:50 - Appending to the single quotes list
+02-Jan-22 00:44:50 - Checking the count of single quotes in //*(id='Atul')
+02-Jan-22 00:44:50 - Appending to the double quotes list
+02-Jan-22 00:44:50 - Checking the count of double quotes in //*(id='Atul')
+02-Jan-22 00:44:50 - Appending to the asterisk presence list
+02-Jan-22 00:44:50 - Checking the presence of asterisk in //*(id='Atul')
+02-Jan-22 00:44:50 - Appending to the single slash start list
+02-Jan-22 00:44:50 - Checking whether xpath //*(id='Atul') starts from single slash
+02-Jan-22 00:44:50 - Appending to slashes absence check list
+02-Jan-22 00:44:50 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:50 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:50 - Appending to the squared brackets list
+02-Jan-22 00:44:50 - Checking the total square brackets in //*(id='Atul')
+02-Jan-22 00:44:50 - Appending to alnum start list
+02-Jan-22 00:44:50 - Checking if xpath //*(id='Atul') starts from alphanumeric
+02-Jan-22 00:44:50 - Started the review decider function
+02-Jan-22 00:44:50 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:50 - Checking the total round brackets in 12345
+02-Jan-22 00:44:50 - Checking the total square brackets in 12345
+02-Jan-22 00:44:50 - Checking the presence of asterisk in 12345
+02-Jan-22 00:44:50 - Checking the count of single quotes in 12345
+02-Jan-22 00:44:50 - Checking the count of double quotes in 12345
+02-Jan-22 00:44:50 - Checking whether xpath 12345 starts from single slash
+02-Jan-22 00:44:50 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:50 - Checking if xpath 12345 starts from alphanumeric
+02-Jan-22 00:44:50 - creating the list of xpaths
+02-Jan-22 00:44:50 - Appending to the round brackets list
+02-Jan-22 00:44:50 - Checking the total round brackets in 12345
+02-Jan-22 00:44:50 - Appending to square brackets square presence check list
+02-Jan-22 00:44:50 - Checking the presence of square brackets in 12345
+02-Jan-22 00:44:50 - Appending to the single quotes list
+02-Jan-22 00:44:50 - Checking the count of single quotes in 12345
+02-Jan-22 00:44:50 - Appending to the double quotes list
+02-Jan-22 00:44:50 - Checking the count of double quotes in 12345
+02-Jan-22 00:44:50 - Appending to the asterisk presence list
+02-Jan-22 00:44:50 - Checking the presence of asterisk in 12345
+02-Jan-22 00:44:50 - Appending to the single slash start list
+02-Jan-22 00:44:50 - Checking whether xpath 12345 starts from single slash
+02-Jan-22 00:44:50 - Appending to slashes absence check list
+02-Jan-22 00:44:50 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:50 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:50 - Appending to the squared brackets list
+02-Jan-22 00:44:50 - Checking the total square brackets in 12345
+02-Jan-22 00:44:50 - Appending to alnum start list
+02-Jan-22 00:44:50 - Checking if xpath 12345 starts from alphanumeric
+02-Jan-22 00:44:50 - Started the review decider function
+02-Jan-22 00:44:50 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:50 - Checking the total round brackets in hello this is just a test
+02-Jan-22 00:44:50 - Checking the total square brackets in hello this is just a test
+02-Jan-22 00:44:50 - Checking the presence of asterisk in hello this is just a test
+02-Jan-22 00:44:50 - Checking the count of single quotes in hello this is just a test
+02-Jan-22 00:44:50 - Checking the count of double quotes in hello this is just a test
+02-Jan-22 00:44:50 - Checking whether xpath hello this is just a test starts from single slash
+02-Jan-22 00:44:50 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:50 - Checking if xpath hello this is just a test starts from alphanumeric
+02-Jan-22 00:44:50 - creating the list of xpaths
+02-Jan-22 00:44:50 - Appending to the round brackets list
+02-Jan-22 00:44:50 - Checking the total round brackets in hello this is just a test
+02-Jan-22 00:44:50 - Appending to square brackets square presence check list
+02-Jan-22 00:44:50 - Checking the presence of square brackets in hello this is just a test
+02-Jan-22 00:44:50 - Appending to the single quotes list
+02-Jan-22 00:44:50 - Checking the count of single quotes in hello this is just a test
+02-Jan-22 00:44:50 - Appending to the double quotes list
+02-Jan-22 00:44:50 - Checking the count of double quotes in hello this is just a test
+02-Jan-22 00:44:50 - Appending to the asterisk presence list
+02-Jan-22 00:44:50 - Checking the presence of asterisk in hello this is just a test
+02-Jan-22 00:44:50 - Appending to the single slash start list
+02-Jan-22 00:44:50 - Checking whether xpath hello this is just a test starts from single slash
+02-Jan-22 00:44:50 - Appending to slashes absence check list
+02-Jan-22 00:44:50 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:50 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:50 - Appending to the squared brackets list
+02-Jan-22 00:44:50 - Checking the total square brackets in hello this is just a test
+02-Jan-22 00:44:50 - Appending to alnum start list
+02-Jan-22 00:44:50 - Checking if xpath hello this is just a test starts from alphanumeric
+02-Jan-22 00:44:50 - Started the review decider function
+02-Jan-22 00:44:50 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:50 - Checking the total round brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Checking the total square brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Checking the presence of asterisk in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Checking the count of single quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Checking the count of double quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Checking whether xpath //input[@id="idToken1"] starts from single slash
+02-Jan-22 00:44:50 - Checking the presence of slashes in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Checking if xpath //input[@id="idToken1"] starts from alphanumeric
+02-Jan-22 00:44:50 - creating the list of xpaths
+02-Jan-22 00:44:50 - Appending to the round brackets list
+02-Jan-22 00:44:50 - Checking the total round brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Appending to square brackets square presence check list
+02-Jan-22 00:44:50 - Checking the presence of square brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Appending to the single quotes list
+02-Jan-22 00:44:50 - Checking the count of single quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Appending to the double quotes list
+02-Jan-22 00:44:50 - Checking the count of double quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Appending to the asterisk presence list
+02-Jan-22 00:44:50 - Checking the presence of asterisk in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Appending to the single slash start list
+02-Jan-22 00:44:50 - Checking whether xpath //input[@id="idToken1"] starts from single slash
+02-Jan-22 00:44:50 - Appending to slashes absence check list
+02-Jan-22 00:44:50 - Checking the presence of slashes in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Checking the presence of slashes in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Appending to the squared brackets list
+02-Jan-22 00:44:50 - Checking the total square brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:50 - Appending to alnum start list
+02-Jan-22 00:44:50 - Checking if xpath //input[@id="idToken1"] starts from alphanumeric
+02-Jan-22 00:44:50 - Started the review decider function
+02-Jan-22 00:44:50 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:50 - Checking the total round brackets in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Checking the total square brackets in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Checking the presence of asterisk in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Checking the count of single quotes in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Checking the count of double quotes in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Checking whether xpath //input[@id='loginButton_0"] starts from single slash
+02-Jan-22 00:44:50 - Checking the presence of slashes in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Checking if xpath //input[@id='loginButton_0"] starts from alphanumeric
+02-Jan-22 00:44:50 - creating the list of xpaths
+02-Jan-22 00:44:50 - Appending to the round brackets list
+02-Jan-22 00:44:50 - Checking the total round brackets in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Appending to square brackets square presence check list
+02-Jan-22 00:44:50 - Checking the presence of square brackets in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Appending to the single quotes list
+02-Jan-22 00:44:50 - Checking the count of single quotes in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Appending to the double quotes list
+02-Jan-22 00:44:50 - Checking the count of double quotes in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Appending to the asterisk presence list
+02-Jan-22 00:44:50 - Checking the presence of asterisk in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Appending to the single slash start list
+02-Jan-22 00:44:50 - Checking whether xpath //input[@id='loginButton_0"] starts from single slash
+02-Jan-22 00:44:50 - Appending to slashes absence check list
+02-Jan-22 00:44:50 - Checking the presence of slashes in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Checking the presence of slashes in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Appending to the squared brackets list
+02-Jan-22 00:44:50 - Checking the total square brackets in //input[@id='loginButton_0"]
+02-Jan-22 00:44:50 - Appending to alnum start list
+02-Jan-22 00:44:50 - Checking if xpath //input[@id='loginButton_0"] starts from alphanumeric
+02-Jan-22 00:44:50 - Started the review decider function
+02-Jan-22 00:44:50 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:50 - Checking the total round brackets in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:50 - Checking the total square brackets in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:50 - Checking the presence of asterisk in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:50 - Checking the count of single quotes in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:50 - Checking the count of double quotes in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:50 - Checking whether xpath //input//div//div/div22/aaab/cc/div/h4/span/a starts from single slash
+02-Jan-22 00:44:50 - Checking the presence of slashes in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:51 - Checking if xpath //input//div//div/div22/aaab/cc/div/h4/span/a starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //input//div//div/div22/aaab/cc/div/h4/span/a starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //input//div//div/div22/aaab/cc/div/h4/span/a
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //input//div//div/div22/aaab/cc/div/h4/span/a starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Checking whether xpath //input[@id="idToken2"] starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Checking if xpath //input[@id="idToken2"] starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //input[@id="idToken2"] starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[@id="idToken2"]
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //input[@id="idToken2"] starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Checking whether xpath //input[@id="loginButton_0"] starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Checking if xpath //input[@id="loginButton_0"] starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //input[@id="loginButton_0"] starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[@id="loginButton_0"]
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //input[@id="loginButton_0"] starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Checking the total square brackets in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Checking the count of single quotes in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Checking the count of double quotes in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Checking whether xpath //select[@id="SelectedSiteID"]//* starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Checking if xpath //select[@id="SelectedSiteID"]//* starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //select[@id="SelectedSiteID"]//* starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Checking the presence of slashes in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //select[@id="SelectedSiteID"]//*
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //select[@id="SelectedSiteID"]//* starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Checking whether xpath //span[@title='Currys PC World UK']"(//* starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Checking if xpath //span[@title='Currys PC World UK']"(//* starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //span[@title='Currys PC World UK']"(//* starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[@title='Currys PC World UK']"(//*
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //span[@title='Currys PC World UK']"(//* starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Checking whether xpath //div[@id="content"]/div/a[@title='Return to L… starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Checking if xpath //div[@id="content"]/div/a[@title='Return to L… starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //div[@id="content"]/div/a[@title='Return to L… starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[@id="content"]/div/a[@title='Return to L…
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //div[@id="content"]/div/a[@title='Return to L… starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Checking the total square brackets in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Checking the count of single quotes in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Checking the count of double quotes in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Checking whether xpath //button[@id='onetrust-accept-btn-handler' and… starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Checking if xpath //button[@id='onetrust-accept-btn-handler' and… starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //button[@id='onetrust-accept-btn-handler' and… starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Checking the presence of slashes in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //button[@id='onetrust-accept-btn-handler' and…
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //button[@id='onetrust-accept-btn-handler' and… starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Checking whether xpath //div[contains(@class,'ipad-search')]//child::... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Checking if xpath //div[contains(@class,'ipad-search')]//child::... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //div[contains(@class,'ipad-search')]//child::... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[contains(@class,'ipad-search')]//child::...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //div[contains(@class,'ipad-search')]//child::... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Checking the total square brackets in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Checking the count of single quotes in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Checking the count of double quotes in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Checking whether xpath //button[@type='submit']//(' starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Checking if xpath //button[@type='submit']//(' starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //button[@type='submit']//(' starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Checking the presence of slashes in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //button[@type='submit']//('
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //button[@type='submit']//(' starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Checking the total square brackets in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Checking whether xpath (//div[@class='monthly-amount' and contains(te... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Checking if xpath (//div[@class='monthly-amount' and contains(te... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath (//div[@class='monthly-amount' and contains(te... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in (//div[@class='monthly-amount' and contains(te...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath (//div[@class='monthly-amount' and contains(te... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Checking whether xpath //input[contains(@id,"monthly-payment")] starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Checking if xpath //input[contains(@id,"monthly-payment")] starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //input[contains(@id,"monthly-payment")] starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[contains(@id,"monthly-payment")]
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //input[contains(@id,"monthly-payment")] starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Checking whether xpath //span[@class="monthly-payment-value" and cont... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Checking if xpath //span[@class="monthly-payment-value" and cont... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //span[@class="monthly-payment-value" and cont... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[@class="monthly-payment-value" and cont...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //span[@class="monthly-payment-value" and cont... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking whether xpath //div[@class="permonth-amount-details" and con... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking if xpath //div[@class="permonth-amount-details" and con... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //div[@class="permonth-amount-details" and con... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //div[@class="permonth-amount-details" and con... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking whether xpath //div[@class="permonth-amount-details" and con... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking if xpath //div[@class="permonth-amount-details" and con... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //div[@class="permonth-amount-details" and con... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[@class="permonth-amount-details" and con...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //div[@class="permonth-amount-details" and con... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking the total square brackets in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking whether xpath //h2[@id="dealsOffersLabel" and contains(text(... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking if xpath //h2[@id="dealsOffersLabel" and contains(text(... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //h2[@id="dealsOffersLabel" and contains(text(... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //h2[@id="dealsOffersLabel" and contains(text(... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking the total square brackets in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking whether xpath //h2[@id="dealsOffersLabel" and contains(text(... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking if xpath //h2[@id="dealsOffersLabel" and contains(text(... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //h2[@id="dealsOffersLabel" and contains(text(... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //h2[@id="dealsOffersLabel" and contains(text(...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //h2[@id="dealsOffersLabel" and contains(text(... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Checking whether xpath //span[contains(@class,'avm-title body-link') ... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Checking if xpath //span[contains(@class,'avm-title body-link') ... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //span[contains(@class,'avm-title body-link') ... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[contains(@class,'avm-title body-link') ...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //span[contains(@class,'avm-title body-link') ... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Checking the total square brackets in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Checking whether xpath //h2[@id="creditPlanLabel" and contains(text()... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Checking if xpath //h2[@id="creditPlanLabel" and contains(text()... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //h2[@id="creditPlanLabel" and contains(text()... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //h2[@id="creditPlanLabel" and contains(text()...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //h2[@id="creditPlanLabel" and contains(text()... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Checking whether xpath //span[@class='flexible-credit-min-order' and ... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Checking if xpath //span[@class='flexible-credit-min-order' and ... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //span[@class='flexible-credit-min-order' and ... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[@class='flexible-credit-min-order' and ...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //span[@class='flexible-credit-min-order' and ... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Checking the total square brackets in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Checking the count of single quotes in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Checking the count of double quotes in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Checking whether xpath //li[contains(@class,'page-item')]//child::a starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Checking if xpath //li[contains(@class,'page-item')]//child::a starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //li[contains(@class,'page-item')]//child::a starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Checking the presence of slashes in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //li[contains(@class,'page-item')]//child::a
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //li[contains(@class,'page-item')]//child::a starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Checking whether xpath //span[contains(text(),'Flexible credit on ord... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Checking if xpath //span[contains(text(),'Flexible credit on ord... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //span[contains(text(),'Flexible credit on ord... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[contains(text(),'Flexible credit on ord...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //span[contains(text(),'Flexible credit on ord... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Checking the total square brackets in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Checking whether xpath (//button[contains(@class,'add-to-cart btn')])[2] starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Checking if xpath (//button[contains(@class,'add-to-cart btn')])[2] starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath (//button[contains(@class,'add-to-cart btn')])[2] starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in (//button[contains(@class,'add-to-cart btn')])[2]
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath (//button[contains(@class,'add-to-cart btn')])[2] starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Checking the total square brackets in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Checking the count of single quotes in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Checking the count of double quotes in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Checking whether xpath //a[contains(@title,'Go to basket')] starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Checking if xpath //a[contains(@title,'Go to basket')] starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //a[contains(@title,'Go to basket')] starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Checking the presence of slashes in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //a[contains(@title,'Go to basket')]
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //a[contains(@title,'Go to basket')] starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Checking the total square brackets in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Checking whether xpath (//span[contains(text(),'Flexible credit on or... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Checking if xpath (//span[contains(text(),'Flexible credit on or... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath (//span[contains(text(),'Flexible credit on or... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in (//span[contains(text(),'Flexible credit on or...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath (//span[contains(text(),'Flexible credit on or... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Checking the total square brackets in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Checking whether xpath //a[contains(@class,'remove-product d-flex')]/... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Checking if xpath //a[contains(@class,'remove-product d-flex')]/... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //a[contains(@class,'remove-product d-flex')]/... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //a[contains(@class,'remove-product d-flex')]/...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //a[contains(@class,'remove-product d-flex')]/... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Checking whether xpath //span[@class='cta-btn-text' and contains(text... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Checking if xpath //span[@class='cta-btn-text' and contains(text... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //span[@class='cta-btn-text' and contains(text... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[@class='cta-btn-text' and contains(text...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //span[@class='cta-btn-text' and contains(text... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Checking the total square brackets in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Checking whether xpath //label[contains(@class,'radio-label payment-t... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Checking if xpath //label[contains(@class,'radio-label payment-t... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //label[contains(@class,'radio-label payment-t... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //label[contains(@class,'radio-label payment-t...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //label[contains(@class,'radio-label payment-t... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Checking whether xpath //div[contains(@class,'careplan-title') and te... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Checking if xpath //div[contains(@class,'careplan-title') and te... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //div[contains(@class,'careplan-title') and te... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[contains(@class,'careplan-title') and te...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //div[contains(@class,'careplan-title') and te... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Checking the total square brackets in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Checking whether xpath //label[contains(@class,'checkbox-label') and ... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Checking if xpath //label[contains(@class,'checkbox-label') and ... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //label[contains(@class,'checkbox-label') and ... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //label[contains(@class,'checkbox-label') and ...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //label[contains(@class,'checkbox-label') and ... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Checking the total square brackets in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Checking whether xpath //button[contains(@class,'btn care-service-nex... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Checking if xpath //button[contains(@class,'btn care-service-nex... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //button[contains(@class,'btn care-service-nex... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //button[contains(@class,'btn care-service-nex...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //button[contains(@class,'btn care-service-nex... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Checking the total square brackets in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Checking whether xpath //a[contains(text(),'Continue without Care & R... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Checking if xpath //a[contains(text(),'Continue without Care & R... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //a[contains(text(),'Continue without Care & R... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //a[contains(text(),'Continue without Care & R...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //a[contains(text(),'Continue without Care & R... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Checking whether xpath //input[@id='stockSearch' and contains(@aria-l... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Checking if xpath //input[@id='stockSearch' and contains(@aria-l... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //input[@id='stockSearch' and contains(@aria-l... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[@id='stockSearch' and contains(@aria-l...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //input[@id='stockSearch' and contains(@aria-l... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Checking whether xpath //span[contains(@class,'storeStock-search-icon')] starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Checking if xpath //span[contains(@class,'storeStock-search-icon')] starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //span[contains(@class,'storeStock-search-icon')] starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Checking the presence of slashes in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //span[contains(@class,'storeStock-search-icon')]
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //span[contains(@class,'storeStock-search-icon')] starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Checking whether xpath //div[contains(@class,'collection-available')] starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Checking if xpath //div[contains(@class,'collection-available')] starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //div[contains(@class,'collection-available')] starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Checking the presence of slashes in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //div[contains(@class,'collection-available')]
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //div[contains(@class,'collection-available')] starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Checking the total square brackets in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Checking whether xpath (//input[contains(@class,'custom-radio-btn sto... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Checking if xpath (//input[contains(@class,'custom-radio-btn sto... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath (//input[contains(@class,'custom-radio-btn sto... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in (//input[contains(@class,'custom-radio-btn sto...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath (//input[contains(@class,'custom-radio-btn sto... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Checking the total square brackets in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Checking whether xpath (//u[contains(text(),'Got it')])[2] starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Checking if xpath (//u[contains(text(),'Got it')])[2] starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath (//u[contains(text(),'Got it')])[2] starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in (//u[contains(text(),'Got it')])[2]
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath (//u[contains(text(),'Got it')])[2] starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking the total square brackets in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking whether xpath (//div[@class='ineligible-error' and contains(... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking if xpath (//div[@class='ineligible-error' and contains(... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath (//div[@class='ineligible-error' and contains(... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath (//div[@class='ineligible-error' and contains(... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking the total square brackets in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking whether xpath (//div[@class='ineligible-error' and contains(... starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking if xpath (//div[@class='ineligible-error' and contains(... starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath (//div[@class='ineligible-error' and contains(... starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Checking the presence of slashes in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in (//div[@class='ineligible-error' and contains(...
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath (//div[@class='ineligible-error' and contains(... starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the total square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the count of single quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the count of double quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking whether xpath //*(id='Atul') starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking if xpath //*(id='Atul') starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //*(id='Atul') starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //*(id='Atul') starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the total square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the count of single quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the count of double quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking whether xpath //*(id='Atul') starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking if xpath //*(id='Atul') starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //*(id='Atul') starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //*(id='Atul') starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in 12345
+02-Jan-22 00:44:51 - Checking the total square brackets in 12345
+02-Jan-22 00:44:51 - Checking the presence of asterisk in 12345
+02-Jan-22 00:44:51 - Checking the count of single quotes in 12345
+02-Jan-22 00:44:51 - Checking the count of double quotes in 12345
+02-Jan-22 00:44:51 - Checking whether xpath 12345 starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:51 - Checking if xpath 12345 starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in 12345
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in 12345
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in 12345
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in 12345
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in 12345
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath 12345 starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:51 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in 12345
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath 12345 starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in hello this is just a test
+02-Jan-22 00:44:51 - Checking the total square brackets in hello this is just a test
+02-Jan-22 00:44:51 - Checking the presence of asterisk in hello this is just a test
+02-Jan-22 00:44:51 - Checking the count of single quotes in hello this is just a test
+02-Jan-22 00:44:51 - Checking the count of double quotes in hello this is just a test
+02-Jan-22 00:44:51 - Checking whether xpath hello this is just a test starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:51 - Checking if xpath hello this is just a test starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in hello this is just a test
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath hello this is just a test starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:51 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in hello this is just a test
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath hello this is just a test starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking whether xpath //input[@id="idToken1"] starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking if xpath //input[@id="idToken1"] starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //input[@id="idToken1"] starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //input[@id="idToken1"] starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the total square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the count of single quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the count of double quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking whether xpath //*(id='Atul') starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking if xpath //*(id='Atul') starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //*(id='Atul') starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //*(id='Atul') starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in 12345
+02-Jan-22 00:44:51 - Checking the total square brackets in 12345
+02-Jan-22 00:44:51 - Checking the presence of asterisk in 12345
+02-Jan-22 00:44:51 - Checking the count of single quotes in 12345
+02-Jan-22 00:44:51 - Checking the count of double quotes in 12345
+02-Jan-22 00:44:51 - Checking whether xpath 12345 starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:51 - Checking if xpath 12345 starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in 12345
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in 12345
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in 12345
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in 12345
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in 12345
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath 12345 starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:51 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in 12345
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath 12345 starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in hello this is just a test
+02-Jan-22 00:44:51 - Checking the total square brackets in hello this is just a test
+02-Jan-22 00:44:51 - Checking the presence of asterisk in hello this is just a test
+02-Jan-22 00:44:51 - Checking the count of single quotes in hello this is just a test
+02-Jan-22 00:44:51 - Checking the count of double quotes in hello this is just a test
+02-Jan-22 00:44:51 - Checking whether xpath hello this is just a test starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:51 - Checking if xpath hello this is just a test starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in hello this is just a test
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath hello this is just a test starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:51 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in hello this is just a test
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath hello this is just a test starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in hello this is just a test
+02-Jan-22 00:44:51 - Checking the total square brackets in hello this is just a test
+02-Jan-22 00:44:51 - Checking the presence of asterisk in hello this is just a test
+02-Jan-22 00:44:51 - Checking the count of single quotes in hello this is just a test
+02-Jan-22 00:44:51 - Checking the count of double quotes in hello this is just a test
+02-Jan-22 00:44:51 - Checking whether xpath hello this is just a test starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:51 - Checking if xpath hello this is just a test starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in hello this is just a test
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath hello this is just a test starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:51 - Checking the presence of slashes in hello this is just a test
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in hello this is just a test
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath hello this is just a test starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking whether xpath //input[@id="idToken1"] starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking if xpath //input[@id="idToken1"] starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //input[@id="idToken1"] starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Checking the presence of slashes in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //input[@id="idToken1"]
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //input[@id="idToken1"] starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the total square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the count of single quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the count of double quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking whether xpath //*(id='Atul') starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking if xpath //*(id='Atul') starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath //*(id='Atul') starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Checking the presence of slashes in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in //*(id='Atul')
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath //*(id='Atul') starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in 12345
+02-Jan-22 00:44:51 - Checking the total square brackets in 12345
+02-Jan-22 00:44:51 - Checking the presence of asterisk in 12345
+02-Jan-22 00:44:51 - Checking the count of single quotes in 12345
+02-Jan-22 00:44:51 - Checking the count of double quotes in 12345
+02-Jan-22 00:44:51 - Checking whether xpath 12345 starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:51 - Checking if xpath 12345 starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in 12345
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in 12345
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in 12345
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in 12345
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in 12345
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath 12345 starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:51 - Checking the presence of slashes in 12345
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in 12345
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath 12345 starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in Testing
+02-Jan-22 00:44:51 - Checking the total square brackets in Testing
+02-Jan-22 00:44:51 - Checking the presence of asterisk in Testing
+02-Jan-22 00:44:51 - Checking the count of single quotes in Testing
+02-Jan-22 00:44:51 - Checking the count of double quotes in Testing
+02-Jan-22 00:44:51 - Checking whether xpath Testing starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in Testing
+02-Jan-22 00:44:51 - Checking if xpath Testing starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in Testing
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in Testing
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in Testing
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in Testing
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in Testing
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath Testing starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in Testing
+02-Jan-22 00:44:51 - Checking the presence of slashes in Testing
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in Testing
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath Testing starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Checking the total round brackets in /html/div
+02-Jan-22 00:44:51 - Checking the total square brackets in /html/div
+02-Jan-22 00:44:51 - Checking the presence of asterisk in /html/div
+02-Jan-22 00:44:51 - Checking the count of single quotes in /html/div
+02-Jan-22 00:44:51 - Checking the count of double quotes in /html/div
+02-Jan-22 00:44:51 - Checking whether xpath /html/div starts from single slash
+02-Jan-22 00:44:51 - Checking the presence of slashes in /html/div
+02-Jan-22 00:44:51 - Checking if xpath /html/div starts from alphanumeric
+02-Jan-22 00:44:51 - creating the list of xpaths
+02-Jan-22 00:44:51 - Appending to the round brackets list
+02-Jan-22 00:44:51 - Checking the total round brackets in /html/div
+02-Jan-22 00:44:51 - Appending to square brackets square presence check list
+02-Jan-22 00:44:51 - Checking the presence of square brackets in /html/div
+02-Jan-22 00:44:51 - Appending to the single quotes list
+02-Jan-22 00:44:51 - Checking the count of single quotes in /html/div
+02-Jan-22 00:44:51 - Appending to the double quotes list
+02-Jan-22 00:44:51 - Checking the count of double quotes in /html/div
+02-Jan-22 00:44:51 - Appending to the asterisk presence list
+02-Jan-22 00:44:51 - Checking the presence of asterisk in /html/div
+02-Jan-22 00:44:51 - Appending to the single slash start list
+02-Jan-22 00:44:51 - Checking whether xpath /html/div starts from single slash
+02-Jan-22 00:44:51 - Appending to slashes absence check list
+02-Jan-22 00:44:51 - Checking the presence of slashes in /html/div
+02-Jan-22 00:44:51 - Checking the presence of slashes in /html/div
+02-Jan-22 00:44:51 - Appending to the squared brackets list
+02-Jan-22 00:44:51 - Checking the total square brackets in /html/div
+02-Jan-22 00:44:51 - Appending to alnum start list
+02-Jan-22 00:44:51 - Checking if xpath /html/div starts from alphanumeric
+02-Jan-22 00:44:51 - Started the review decider function
+02-Jan-22 00:44:51 - Writing the reviews to the updated dataframe
+02-Jan-22 00:44:51 - Dealing with the empty rows of xpath column
+02-Jan-22 00:44:51 - Dealing with the integer rows of xpath column
+02-Jan-22 00:44:51 - Converting the updated dataframe to resource file
+02-Jan-22 00:44:51 - Creating an empty dataframe as part of data preprocessor
+02-Jan-22 00:44:51 - updating the preprocessed dataframe by appending the lists
+02-Jan-22 00:44:51 - converting the appended dataframe into excel file
+02-Jan-22 00:44:51 - 127.0.0.1 - - [02/Jan/2022 00:44:51] "POST /reviewing HTTP/1.1" 200 -
+02-Jan-22 00:44:56 - 127.0.0.1 - - [02/Jan/2022 00:44:56] "GET /mlPrediction HTTP/1.1" 200 -

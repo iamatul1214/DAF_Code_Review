@@ -76,6 +76,16 @@ def reports_Analysis():
         print("Error occured\t",str(ex))
         return render_template("Exception.html")
 
+@app.route('/mlPrediction', methods=['GET','POST'])
+def mlPrediction():
+    try:
+        msg="Sorry, this module is not ready yet. But it is in progress and will be completed soon."
+
+        return render_template("mlPrediction.html",msg=msg)
+    except Exception as ex:
+        print("Error occured\t",str(ex))
+        return render_template("Exception.html")
+
 
 
 if __name__=="__main__":
